@@ -1,0 +1,86 @@
+body {
+    font-family: "Nunito", sans-serif;
+}
+nav a {
+    padding: 0.5rem;
+}
+nav a:hover {
+    text-decoration: underline;
+    color: #ff5656;
+}
+
+ul li {
+    list-style-type: none;
+    font-size: 1.3rem;
+    padding: 0.4rem;
+    margin: 0.1rem;
+    border: 1px solid #7d2727;
+    background-color: #ff7373;
+}
+
+ul li:hover {
+    background-color: #ff4b4b;
+    scale: 1.02;
+}
+.form {
+    background: white;
+    border: 1px solid #dddddd;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00000f;
+}
+.form div {
+    margin: 10px;
+}
+.form label {
+    display: inherit;
+    font-size: 0.9rem;
+    padding-bottom: 3px;
+    color: #9d9d9d;
+}
+.form input {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-family: "Nunito";
+}
+.form button {
+    border: 1px solid #ddd;
+    padding: 10px 25px;
+    font-size: 1.1rem;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form button:hover {
+    scale: 1.03;
+    border: 1px dashed #bd7373;
+}
+.form-error {
+    color: #f00;
+    font-size: 0.8rem;
+    margin: 0;
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+}
+.button-group button {
+    border: 1px solid #7d2727;
+    border-radius: 8px;
+    padding: 8px 20px;
+    margin: 10px 2px auto 2px;
+    font-size: 0.6rem;
+    cursor: pointer;
+}
+.button-group button:hover {
+    scale: 1.04;
+    font-size: 0.81rem;
+}
+.father {
+    position: relative;
+}
+.actions {
+    position: absolute;
+    top: 13px;
+    right: -6em;
+}
